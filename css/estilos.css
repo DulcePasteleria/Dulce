@@ -1,0 +1,53 @@
+/*
+font-family: 'Syne', sans-serif;
+font-family: 'Arvo', serif;
+
+*/
+
+
+.bg-torta{
+    background-color: #daf5e4;
+}
+    
+.nav-link:hover{
+     color: black!important;
+    text-decoration: underline;
+}
+    
+.cyd{
+    background: url(fondo1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 6rem 0!important;
+}
+
+    
+body{
+    background-color: #fcf7fc;
+    font-family: 'Syne', sans-serif;    
+}
+    
+h1,h2,h3,a{
+    font-family: 'Arvo', serif;   
+}
+    
+p{
+    color:dimgray;
+}
+    
+h1{
+    color: steelblue;
+}
+    
+@media (min-width:992px){
+        .cyd{
+            background: url(../img/fondo1.jpg) no-repeat center center fixed;
+            background-size: cover;
+            padding: 6rem 0!important;
+        }
+    
+}
+    
+.bg-footer{
+    background-color: #d1f5de;
+}
+    

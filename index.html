@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--  iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <!-- css personalizado -->
+    <!--google fonts-->
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Nunito: wght @ 200; 300; 600 & display = swap "rel =" stylesheet ">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Syne: wght @ 500 & display = swap "rel =" stylesheet ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
+    <!--estilos-->    
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Dulce Pastelería</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-torta sticky-top">
+        <div class="container-md">
+          <a class="navbar-brand" href="#">Dulce Pastelería</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion" aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navegacion">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quienessomos">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pasteleria">Pastelería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#panaderia">Panadería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mesas">Mesas Dulces</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto" >Reservas y Ubicación</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+      <!--cierre nav-->
+      <!--carousel-->
+      <div id="slider-tortas" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#slider-tortas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#slider-tortas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#slider-tortas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#slider-tortas" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider1.jpg" class="d-block w-100" alt="slider 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider2.jpg" class="d-block w-100" alt="slider 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider3.jpg" class="d-block w-100" alt="slider 3">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider4.jpg" class="d-block w-100" alt="slider 4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider-tortas" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slider-tortas" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--cierre carousel-->
+
+      <header class="cyd py-5 text-center">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h1 class="display-1 text-info">Nuestra Pastelería!</h1>
+                   <p class="lead text-info">Bienvenidxs</p>
+      
+                  </div>          
+                </div>       
+              </div>
+      </header>
+       <!--menu-->
+            <!--quienes somos-->   
+            <section id="quienessomos" class="py-5">
+                <div class="container">
+                 <div class="row">
+                    <header class="col-12 my-5">
+                     <h1 class="display-1 text-center tit">Quienes somos</h1>
+                     <p class="text-center lead text-secondary "> Nos apasiona lo que hacemos</p>
+                    </header>
+                      <div class="row">
+                        <article class="col-sm-12 col-md-6 col-lg-6 py-2 ">
+                          <p>Somos una empresa familiar,  donde fabricamos tortas y cosas dulces con mucha pasión. 
+                            Hacemos desde desayunos, meriendas y mesas dulces para fiestas privadas.
+                          Trabajamos todo tipo de ingrediente, para que cada persona pueda tener la torta de sus sueños.</p>
+                      
+                          <p> En la actualidad, desarrollamos, elaboramos y comercializamos productos de pastelería y panificados.
+                            Contamos con un centro de elaboracion en Capital Federal donde se mantienen los mismos pilares desde nuestro inicio: 
+                            la exigente selección de materias primas, la innovación en técnicas de pasteleria, la constante capacitacion y la inversión 
+                            en nueva tecnología que nos permita brindar siempre la mejor calidad.</p>
+                        </article>
+                        <article class="col-sm-12 col-md-6 col-lg-6 py-2">
+                          <p>En nuestro local de Almagro desayuná, almorzá, merendá y disfrutá de nuestra pastelería, postres, facturas y tortas. 
+                                Y en nuestro nuevo local de Vicente Lopez podés llevar todas nuestras delicias y saborear un rico café.
+                                Con mucha más experiencia y las ganas intactas, hoy, como hace más de 12 años, 
+                                seguimos persiguiendo y cumpliendo con la misma misión.</p>
+                                
+                              <p>La repostería, confitería o pastelería es el arte de preparar o decorar pasteles u otros postres. 
+                                    El término repostería es el que se utiliza para denominar al tipo de gastronomía que se basa en la preparación, y 
+                                    decoración de platos dulces tales como tartas, pasteles, galletas, budines, etc. Así como se describe la definición de PASTELERÍA
+                                  nosotrxs con comprometemos a siempre a dar lo mejor de nosotrxs, por amamos lo que hacemos.</p>
+                            
+                        </article>
+                    
+                      </div>
+                    <div class="container-fuid">
+                     <div class="offset-lg-3 col-lg-9">
+                        <figure>
+                          <img src="img/mujeres2.jpg" alt="Nosotrxs" class="img-fluid rounded-circle">
+                        </figure>
+          
+                      </div>
+                    </div>
+         
+                  </div>
+         
+                </div>
+               </article>
+              
+              </section>
+
+            <!--cierre quienes somos-->
+            <!--pasteleria-->  
+      <section id="pasteleria" class="py-5">
+           <div class="container">
+                  <div class="row">
+                   <div class="col-12 py-5">
+                      <h1 class="display-1 text-center tit">Pastelería</h1>
+                        <p class="text-center lead text-secondary"> Nuestras tortas más pedidas</p>
+                       
+                       
+                    </div>
+                  </div>
+                <div class="row">
+                           <!--@media (min-width:768px)-->
+                           <!--@media (min-width:992px)-->
+                            <div class="col-12 col-md-6 col-lg-3">
+                              <img src="img/torta1-tablet.jpg" alt="torta1" class="img-fluid">
+                              <h2>Torta Rogel</h2>
+                              <p>Mil hojas de galletas y dulce de leche</p>
+                              <hr>
+                              <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#torta1">
+                                Más Info
+                              </button>
+                            </div>
+                          <!-- torta1 modal -->
+                          <div class="modal fade" id="torta1" tabindex="-1" aria-labelledby="torta1" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                              <div class="modal-content">
+                                <div class="modal-header">                
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="container-fuid">
+                                    <div class="row">
+                                      <h1 class="display-4">Torta Rogel</h1>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                        <img src="img/torta1.jpg" alt="" class="img-fluid">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <h2>Sobre el Rogel</h2>
+                                        <p class="lead">Pasiones Argentinas: El Dulce de Leche</p>
+                                        <p>El rogel es un pastel tradicional de Argentina que consta de 
+                                        sucesivas galletas neutras alternando con abundante dulce de leche y finalmente 
+                                        cubierto por una capa de merengue</p>              
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- cierre torta 1 modal -->
+                         <!--md-mundo tablet (768px standar)-->
+                          <div class="col-12 col-md-6 col-lg-3">
+                            <img src="img/torta2-tablet.jpg" alt="torta2" class="img-fluid">
+                            <h2>Torta de Chocolate</h2>
+                            <p>Típica torta infaltable de Chocolate</p>
+                            <hr>
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#torta2">
+                              Más Info
+                            </button>
+                          </div>
+                          <!-- torta2 modal -->
+                          <div class="modal fade" id="torta2" tabindex="-1" aria-labelledby="torta2" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                              <div class="modal-content">
+                                <div class="modal-header">                
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="container-fuid">
+                                    <div class="row">
+                                      <h1 class="display-4">Torta de Chocolate</h1>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-4">
+                                        <img src="img/torta2.jpg" alt="" class="img-fluid">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <h2>Sobre la Torta de Chocolate</h2>
+                                        <p class="lead">Pasiones Argentinas: El Chocolate</p>
+                                        <p>Torta de bizcochuelo de Chocolate, relleno de ganache de chocolate y cubierto por
+                                        manteca de maní y chocolate</p>              
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- cierre torta 2 modal -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <img src="img/torta3-tablet.jpg" alt="torta3" class="img-fluid">
+                      <h2>Tortas Temáticas</h2>
+                      <p>Variedad en diversas tortas para fiestas</p>
+                      <hr>
+                      <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#torta3">
+                        Más Info
+                      </button>
+                    </div>
+                  <!-- torta3 modal -->
+                  <div class="modal fade" id="torta3" tabindex="-1" aria-labelledby="torta3" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">                
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fuid">
+                            <div class="row">
+                              <h1 class="display-4">Tortas Temáticas</h1>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <img src="img/torta3.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-md-8">
+                                <h2>Sobre las Tortas Temáticas</h2>
+                                <p class="lead">Pasiones Argentinas: El Festejo con Dulces</p>
+                                <p>Realizamos tortas temáticas para cualquier tipo de evento,
+                                desde fiestas infantiles, cumpleaños hasta casamientos</p>
+                               
+                              </div>                           
+                            </div>
+                          </div>
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- cierre torta 3 modal -->
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <img src="img/torta4-tablet.jpg" alt="torta4" class="img-fluid">
+                    <h2>Torta Frutal</h2>
+                    <p>Tortas de diversas frutas de estación</p>
+                    <hr>
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#torta4">
+                      
+                      Más Info
+                    </button>
+                  </div>
+                  <!-- torta4 modal -->
+                  <div class="modal fade" id="torta4" tabindex="-1" aria-labelledby="torta4" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">                
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fuid">
+                            <div class="row">
+                              <h1 class="display-4">Torta Frutal</h1>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <img src="img/torta4.jpg" alt="" class="img-fluid">
+                              </div>
+                              <div class="col-md-8">
+                                <h2>Sobre las Tortas Frutales</h2>
+                                <p class="lead">Pasiones Argentinas: Frutas de Estación</p>
+                                <p>En Calli nos preocupamos que todos nuestros productos sean de calidad.
+                                Por lo que nuestras tortas frutales solo las manejamos con las frutas 
+                                de estación, siendo lo más natural posible </p>              
+                              </div>
+                            </div>
+                          </div>
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- cierre torta 4 modal -->
+                </div>
+              </div>
+        </section>
+       <!--cierre pasteleria--> 
+       <!--panaderia-->
+       <section id="panaderia" class="py-5">
+          <div class="container">
+                <div class="row">
+                  <div class="col-12 py-5">
+                  <h1 class="display-1 text-center tit">Panadería</h1>
+                      <p class="text-center lead text-secondary"> Nuestros Panificados</p>
+                  </div>
+                </div>
+
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body">
+                        <img src="img/pan1-smart.jpg" alt="pan1" class="card-img-top">
+                      <h2 class="card-title">Nuestros Panes</h2>
+                      <p class="card-text">Panes frescos, hechos cada día, que nunca falten en tu mesa.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body">
+                        <img src="img/pan2-smart.jpg" alt="pan2" class="card-img-top">
+                      <h2 class="card-title">Nuestras Delicias</h2>
+                      <p class="card-text">Variedas de facturas a elección, perfectos para desayunar o merendar.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <img src="img/pan3-smart.jpg" alt="pan3" class="card-img-top">
+                        <h2 class="card-title">Nuestras Pizzas</h2>
+                        <p class="card-text">Las mejores pizzas, hechas con masa madre, sabores únicos.</p>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <img src="img/pan4-smart.jpg" alt="pan4" class="card-img-top">
+                        <h2 class="card-title">Nuestros Scones</h2>
+                        <p class="card-text">Sí pensas en scones salados, está sección es para vos.</p>
+            
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <!--cierre panaderia-->
+              <!--fotos-->
+              <section id="mesas" class="py-5"></section>
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-12 py-5">
+                     <h1 class="display-1 text-center tit">Mesas Dulces</h1>
+                        <p class="text-center lead text-secondary"> Nuestros Eventos</p>
+                    </div>
+                </div>
+
+                <div id="slider-mesa" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-interval="false">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/mesa1.jpg" class="d-block w-100" alt="mesa 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/mesa2.jpg" class="d-block w-100" alt="mesa 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/mesa3.jpg" class="d-block w-100" alt="mesa 4">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#slider-mesa" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#slider-mesa" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                
+                    </div>
+               <!--cierre fotos-->
+               <!--contacto-->   
+            <section id="contacto" class="py-5">
+              <div class="container">
+               <div class="row">
+                 <header class="col-12 my-5">
+                   <h1 class="display-1 text-center tit">Reservas y Ubicación</h1>
+                   <p class="text-center lead text-secondary "> Cualquier consulta o reserva</p>
+                 </header>
+                
+       
+             </div>
+       <div class="row">
+         <div class="col-md-6">
+          <h2 class="display-4 text-center">Hace tu reseva!</h2>
+          <hr>
+          <form action="" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">*Nombre:</label>
+              <input type="text" class="form-control" id="nombres" placeholder="Juan" required>
+            <div class="valid-feedback">
+              Nombre Ok
+            </div>
+            </div>
+            <div class="mb-3">
+              <label for="apellidos" class="form-label">*Apellido:</label>
+              <input type="text" class="form-control" id="apellidos" placeholder="Perez"required>
+              <div class="valid-feedback">
+                Apellido Ok
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">*Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="xxxxx@gmail.com"required>
+              <div class="valid-feedback">
+                Email Ok
+              </div>
+              <div class="invalid-feedback">
+                Colocar correo electrónico
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="mensajes" class="form-label">*Mensaje:</label>
+              <textarea class="form-control" id="mensajes" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Enviar</button>
+          </form>
+         </div>
+         <div class="col-md-6">
+           <h2 class="display-4 text-center">Vení a visitarnos!</h2>
+          <hr>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9926692429444!2d-58.3981888846281!3d-34.60434688045938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci!5e0!3m2!1ses!2sar!4v1625238254440!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+       </div>
+               </div>
+            
+            </section>
+        <!--cierre contacto-->
+        
+        
+        <!--footer-->
+        <footer class="bg-footer text-center text-secondary py-">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <p class="lead">Seguinos en nuestras Redes Sociales:</p>
+                </div>
+              
+              </div>
+              
+              <div class="row">
+                <div class="col">
+                  <a class="text-secondary" href="https://www.instagram.com/solpeca/"
+                  target="blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <a class="text-secondary" href="https://www.facebook.com/sol.uqz"
+                    target="blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+
+                </div>
+              </div>
+                
+
+              <div class="row">
+                <div class="col">
+                  <a class="text-secondary" href="https://www.linkedin.com/in/solpeca/"
+                    target="blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="col">
+                  <a class="text-secondary" href="https://www.behance.net/solpeca"
+                    target="blank">
+                    <i class="bi bi-emoji-smile"></i>
+                  </a>
+
+                </div>
+              </div>
+
+
+
+            </div>
+        </footer>
+        <!--cierrefooter-->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/validar.js"></script>
+   
+  </body>
+</html>
